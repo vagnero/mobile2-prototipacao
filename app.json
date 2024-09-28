@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Vinoteca",
+    "slug": "snack-48960f71-d54f-48e5-b60f-eb3c8099aff4",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "bundleIdentifier": "com.protoon.vinoteca",
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.protoon.vinoteca"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4479a4b4-560b-4170-93ec-f671475867f0"
+      }
+    }
+  }
+}
