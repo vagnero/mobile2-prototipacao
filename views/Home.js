@@ -23,78 +23,78 @@ const wines = [
     wineDescription: 'Um vinho equilibrado e robusto, com notas de frutas vermelhas.',
     imageSource: require('../assets/home/vinho1.png'),
   },
-  {
-    wineName: 'Cazauvielho Bordeaux',
-    // wineCategory: 'Bordeaux Tinto',
-    winePrice: 'R$ 109,00',
-    wineSigns: '5.0',
-    wineDescription: 'Vinho jovem e frutado, ideal para refeições leves.',
-    imageSource: require('../assets/home/vinho2.png'),
-  },
-  {
-    wineName: 'Château Pitron Bordeaux',
-    // wineCategory: 'Bordeaux Tinto',
-    winePrice: 'R$ 155,00',
-    wineSigns: '4.3',
-    wineDescription: 'Corpo médio com taninos macios e um final suave.',
-    imageSource: require('../assets/home/vinho3.png'),
-  },
-  {
-    wineName: 'Château Margaux Bordeaux',
-    // wineCategory: 'Bordeaux Tinto',
-    winePrice: 'R$ 2200,00',
-    wineSigns: '4.0',
-    wineDescription: 'Vinho icônico, de complexidade impressionante e notas florais.',
-    imageSource: require('../assets/home/vinho4.png'),
-  },
-  {
-    wineName: 'Borgonha Blanc',
-    // wineCategory: 'Borgonha Branco',
-    winePrice: 'R$ 328,00',
-    wineSigns: '5.0',
-    wineDescription: 'Elegante e refrescante, com toques de frutas cítricas.',
-    imageSource: require('../assets/home/borgonha_blanc.png'),
-  },
-  {
-    wineName: 'Borgonha Chablis',
-    // wineCategory: 'Borgonha Branco',
-    winePrice: 'R$ 540,00',
-    wineSigns: '4.8',
-    wineDescription: 'Mineralidade marcante e acidez vibrante, perfeito para frutos do mar.',
-    imageSource: require('../assets/home/borgonha_chablis.png'),
-  },
-  {
-    wineName: 'Tinto Paulo Laureano',
-    // wineCategory: 'Tinto Português',
-    winePrice: 'R$ 88,00',
-    wineSigns: '5.0',
-    wineDescription: 'Vinho português com notas de ameixa e especiarias, fácil de beber.',
-    imageSource: require('../assets/home/tinto_paulo_laureano.png'),
-  },
-  {
-    wineName: 'Tinto Quinta do Noval',
-    // wineCategory: 'Tinto Português',
-    winePrice: 'R$ 298,00',
-    wineSigns: '4.6',
-    wineDescription: 'Complexo e encorpado, com taninos robustos e um final longo.',
-    imageSource: require('../assets/home/tinto_quinta_do_noval.png'),
-  },
-  {
-    wineName: 'Zentas Chardonnay',
-    // wineCategory: 'Chardonnay',
-    winePrice: 'R$ 65,00',
-    wineSigns: '5.0',
-    wineDescription: 'Leve e frutado, com notas de pêssego e um toque amanteigado.',
-    imageSource: require('../assets/home/pasta_zentas_chardonnay.png'),
-  },
-  {
-    wineName: 'Villa Antinori Rosso',
-    // wineCategory: 'Rosso Italiano',
-    winePrice: 'R$ 270,00',
-    wineSigns: '4.9',
-    wineDescription: 'Vinho italiano rico, com notas de frutas maduras e um final suave.',
-    imageSource: require('../assets/home/villa_antinori_rosso.png'),
-  }
+  // {
+  //   wineName: 'Cazauvielho Bordeaux',
+  //   // wineCategory: 'Bordeaux Tinto',
+  //   winePrice: 'R$ 109,00',
+  //   wineSigns: '5.0',
+  //   wineDescription: 'Vinho jovem e frutado, ideal para refeições leves.',
+  //   imageSource: require('../assets/home/vinho2.png'),
+  // },
+  // {
+  //   wineName: 'Château Pitron Bordeaux',
+  //   // wineCategory: 'Bordeaux Tinto',
+  //   winePrice: 'R$ 155,00',
+  //   wineSigns: '4.3',
+  //   wineDescription: 'Corpo médio com taninos macios e um final suave.',
+  //   imageSource: require('../assets/home/vinho3.png'),
+  // },
+  // {
+  //   wineName: 'Château Margaux Bordeaux',
+  //   // wineCategory: 'Bordeaux Tinto',
+  //   winePrice: 'R$ 2200,00',
+  //   wineSigns: '4.0',
+  //   wineDescription: 'Vinho icônico, de complexidade impressionante e notas florais.',
+  //   imageSource: require('../assets/home/vinho4.png'),
+  // },
+  // {
+  //   wineName: 'Borgonha Blanc',
+  //   // wineCategory: 'Borgonha Branco',
+  //   winePrice: 'R$ 328,00',
+  //   wineSigns: '5.0',
+  //   wineDescription: 'Elegante e refrescante, com toques de frutas cítricas.',
+  //   imageSource: require('../assets/home/borgonha_blanc.png'),
+  // },
+  // {
+  //   wineName: 'Borgonha Chablis',
+  //   // wineCategory: 'Borgonha Branco',
+  //   winePrice: 'R$ 540,00',
+  //   wineSigns: '4.8',
+  //   wineDescription: 'Mineralidade marcante e acidez vibrante, perfeito para frutos do mar.',
+  //   imageSource: require('../assets/home/borgonha_chablis.png'),
+  // },
+  // {
+  //   wineName: 'Tinto Paulo Laureano',
+  //   // wineCategory: 'Tinto Português',
+  //   winePrice: 'R$ 88,00',
+  //   wineSigns: '5.0',
+  //   wineDescription: 'Vinho português com notas de ameixa e especiarias, fácil de beber.',
+  //   imageSource: require('../assets/home/tinto_paulo_laureano.png'),
+  // },
+  // {
+  //   wineName: 'Tinto Quinta do Noval',
+  //   // wineCategory: 'Tinto Português',
+  //   winePrice: 'R$ 298,00',
+  //   wineSigns: '4.6',
+  //   wineDescription: 'Complexo e encorpado, com taninos robustos e um final longo.',
+  //   imageSource: require('../assets/home/tinto_quinta_do_noval.png'),
+  // },
+  // {
+  //   wineName: 'Zentas Chardonnay',
+  //   // wineCategory: 'Chardonnay',
+  //   winePrice: 'R$ 65,00',
+  //   wineSigns: '5.0',
+  //   wineDescription: 'Leve e frutado, com notas de pêssego e um toque amanteigado.',
+  //   imageSource: require('../assets/home/pasta_zentas_chardonnay.png'),
+  // },
+  // {
+  //   wineName: 'Villa Antinori Rosso',
+  //   // wineCategory: 'Rosso Italiano',
+  //   winePrice: 'R$ 270,00',
+  //   wineSigns: '4.9',
+  //   wineDescription: 'Vinho italiano rico, com notas de frutas maduras e um final suave.',
+  //   imageSource: require('../assets/home/villa_antinori_rosso.png'),
+  // }
 ];
 
 
@@ -157,17 +157,18 @@ const Home = () => {
      {cartSuccessMessage && (
         <Text style={styles.successMessage}>{cartSuccessMessage}</Text>
       )}
-      <View style={styles.div_saudacao_pesquisar}>
+      {/* <View style={styles.div_saudacao_pesquisar}>
         {currentUser && <Greeting name={currentUser.nome} />}
         <Pesquisar onSearch={handleSearch} />
-      </View>
+      </View> */}
+      <Text style={{ fontSize: 30, textAlign: 'center', marginBottom: 200 }}>Olá Usuário</Text>
 
       {/* Filtro */}
-      <View style={styles.div_categorias}>
+      {/* <View style={styles.div_categorias}>
         <Text style={styles.text_categorias}>Categorias</Text>
-      </View>
+      </View> */}
 
-      <View style={styles.div_categorias_opcoes}>
+      {/* <View style={styles.div_categorias_opcoes}>
         <ScrollView
           horizontal
           showsHorizontalScrollIndicator={false}
@@ -210,7 +211,7 @@ const Home = () => {
             </View>
           </TouchableOpacity>
         </ScrollView>
-      </View>
+      </View> */}
 
       {/* Mosaico de vinhos */}
       <ScrollView style={{ flex: 1 }} showsVerticalScrollIndicator={false}>

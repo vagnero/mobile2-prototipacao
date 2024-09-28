@@ -77,7 +77,7 @@ const styles = {
 
   image_vinho: {
     width: '100%', 
-    height: 320
+    height: 300,
   },
 
   container_informacoes: {

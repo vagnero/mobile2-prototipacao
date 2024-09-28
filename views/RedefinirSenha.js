@@ -81,7 +81,7 @@ const styles = {
   },
 
   textInput: {
-    width: "100%",
+    width: "90%",
     height: 50,
     backgroundColor: "white",
     borderRadius: 10,
